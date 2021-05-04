@@ -1,0 +1,70 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Emerald Crusher",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Emerald Crusher",
+          "x": 130,
+          "y": 41
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -13369498,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #0",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "emeraldforgui.png",
+          "use1Xscale": false,
+          "name": "emeraldforgui.png",
+          "x": 186,
+          "y": 72
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Crush",
+          "onClick": {
+            "name": "EmeraldToXP"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Crush",
+          "x": 188,
+          "y": 98
+        }
+      }
+    ]
+  }
+}

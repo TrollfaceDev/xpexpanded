@@ -1,0 +1,56 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "XP Concentrator",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "XP Concentrator",
+          "x": 129,
+          "y": 41
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Convert XP to Concentrated XP",
+          "onClick": {
+            "name": "XPtoConcentratedXP"
+          },
+          "width": 170,
+          "height": 20,
+          "name": "Convert XP to Concentrated XP",
+          "x": 128,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Convert Concentrated XP to XP",
+          "onClick": {
+            "name": "ConcentratedXPtoXP"
+          },
+          "width": 170,
+          "height": 20,
+          "name": "Convert Concentrated XP to XP",
+          "x": 128,
+          "y": 86
+        }
+      }
+    ]
+  }
+}

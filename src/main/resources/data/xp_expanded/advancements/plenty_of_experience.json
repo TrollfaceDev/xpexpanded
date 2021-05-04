@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "xp_expanded:emerald_crusher"
+    },
+    "title": {
+      "translate": "advancements.plenty_of_experience.title"
+    },
+    "description": {
+      "translate": "advancements.plenty_of_experience.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "plenty_of_experience": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "xp_expanded:xp_expanded"
+}

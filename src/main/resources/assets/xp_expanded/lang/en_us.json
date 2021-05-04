@@ -1,0 +1,15 @@
+{
+  "entity.xp_expanded.xpcreature": "XP Creature",
+  "advancements.xp_expanded.descr": "Welcome to XP Expanded.",
+  "advancements.plenty_of_experience.title": "Plenty Of Experience",
+  "block.xp_expanded.xp_concentrator": "XP Concentrator",
+  "advancements.concentration.descr": "Concentrate some Experience.",
+  "block.xp_expanded.emerald_crusher": "Emerald Crusher",
+  "item.xp_expanded.xpcreature_spawn_egg": "XP Creature Spawn Egg",
+  "item.xp_expanded.concentrated_xp": "Concentrated XP",
+  "advancements.xp_expanded.title": "XP Expanded",
+  "advancements.weird_science.descr": "Pretty sure you shouldn\u0027t do that.",
+  "advancements.plenty_of_experience.descr": "Crush an Emerald into Experience.",
+  "advancements.weird_science.title": "Weird Science",
+  "advancements.concentration.title": "Concentration"
+}
