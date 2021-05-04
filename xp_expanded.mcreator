@@ -29,39 +29,6 @@
       "registry_name": "emerald_crusher_gui"
     },
     {
-      "name": "OpenEmeraldCrusherGUI",
-      "type": "procedure",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "open_emerald_crusher_gui",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "EmeraldToXP",
       "type": "procedure",
       "sortid": 5,
@@ -160,39 +127,6 @@
           {
             "name": "entity",
             "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "OpenConcentrationGUI",
-      "type": "procedure",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "open_concentration_gui",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }

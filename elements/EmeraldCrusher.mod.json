@@ -85,8 +85,8 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
+    "guiBoundTo": "EmeraldCrusherGui",
+    "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -101,9 +101,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "OpenEmeraldCrusherGUI"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
