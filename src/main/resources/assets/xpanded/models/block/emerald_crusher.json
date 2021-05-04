@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "xpanded:blocks/xp_machine_bottom",
+    "up": "xpanded:blocks/xpmachinetop",
+    "north": "xpanded:blocks/xpmachineside",
+    "east": "xpanded:blocks/xpmachineside",
+    "south": "xpanded:blocks/xpmachineside",
+    "west": "xpanded:blocks/xpmachineside",
+    "particle": "xpanded:blocks/xp_machine_bottom"
+  }
+}

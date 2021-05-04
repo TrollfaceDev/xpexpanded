@@ -1,0 +1,273 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "EmeraldCrusher",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_crusher"
+    },
+    {
+      "name": "EmeraldCrusherRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_crusher_recipe"
+    },
+    {
+      "name": "EmeraldCrusherGui",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_crusher_gui"
+    },
+    {
+      "name": "EmeraldToXP",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_to_xp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConcentratedXP",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "concentrated_xp"
+    },
+    {
+      "name": "XPConcentrator",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_concentrator"
+    },
+    {
+      "name": "XPConcentratorRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_concentrator_recipe"
+    },
+    {
+      "name": "XPConcentratorGUI",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_concentrator_gui"
+    },
+    {
+      "name": "XPtoConcentratedXP",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "x_pto_concentrated_xp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConcentratedXPtoXP",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "concentrated_x_pto_xp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XPExpanded",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_expanded"
+    },
+    {
+      "name": "XPExpandedAchievement",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_expanded_achievement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlentyOfExperience",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plenty_of_experience"
+    },
+    {
+      "name": "WeirdScience",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_science"
+    },
+    {
+      "name": "Concentration",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "concentration"
+    },
+    {
+      "name": "Leecher",
+      "type": "mob",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xpcreature"
+    },
+    {
+      "name": "XPCreatureDrop",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_creature_drop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.xp_expanded.xpcreature": "XP Creature",
+      "advancements.xp_expanded.descr": "Welcome to XP Expanded.",
+      "advancements.plenty_of_experience.title": "Plenty Of Experience",
+      "block.xp_expanded.xp_concentrator": "XP Concentrator",
+      "advancements.concentration.descr": "Concentrate some Experience.",
+      "block.xp_expanded.emerald_crusher": "Emerald Crusher",
+      "item.xpanded.concentrated_xp": "Concentrated XP",
+      "item.xpanded.xpcreature_spawn_egg": "XP Creature Spawn Egg",
+      "item.xp_expanded.xpcreature_spawn_egg": "XP Creature Spawn Egg",
+      "item.xp_expanded.concentrated_xp": "Concentrated XP",
+      "block.xpanded.emerald_crusher": "Emerald Crusher",
+      "advancements.xp_expanded.title": "XP Expanded",
+      "advancements.weird_science.descr": "Pretty sure you shouldn\u0027t do that.",
+      "entity.xpanded.xpcreature": "XP Creature",
+      "advancements.plenty_of_experience.descr": "Crush an Emerald into Experience.",
+      "advancements.weird_science.title": "Weird Science",
+      "block.xpanded.xp_concentrator": "XP Concentrator",
+      "advancements.concentration.title": "Concentration"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "xpanded",
+    "modName": "XPanded",
+    "version": "1.0.0",
+    "author": "jackc, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "xpanded",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

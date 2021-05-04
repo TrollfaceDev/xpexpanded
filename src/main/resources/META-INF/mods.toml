@@ -3,14 +3,14 @@ loaderVersion="[36,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="xp_expanded"
+modId="xpanded"
 version="1.0.0"
-displayName="XP Expanded"
+displayName="XPanded"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="jackc, MCreator"
 
-[[dependencies.xp_expanded]]
+[[dependencies.xpanded]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"
