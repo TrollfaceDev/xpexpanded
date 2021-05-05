@@ -6,9 +6,9 @@ license="Academic Free License v3.0"
 modId="xpanded"
 version="1.0.0"
 displayName="XPanded"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="jackc, MCreator"
+credits="TrollfaceDev, Ruru and Fred."
+displayURL="https://www.curseforge.com/minecraft/mc-mods/xpanded"
+authors="Trollface Team"
 
 [[dependencies.xpanded]]
     modId="minecraft"
